@@ -131,9 +131,6 @@ function fctCalculation(){
   //read string
   let tmp = document.getElementById('Operation').innerHTML;
 
-  //vibrate
-  navigator.vibrate(1000);
-  
   //replace characters
   tmp = tmp.replaceAll(',', '.');
   tmp = tmp.replaceAll('x', '*');
